@@ -1,6 +1,6 @@
 <template>
   <div id="container" :key="counter">
-      <!-- ========== CLOCK ========== -->
+      <!-- ========== DATE & CLOCK ========== -->
       <div class="today" id="clock">
           <div id="date">{{date}}</div>
           <div id="time">{{time}}</div>
@@ -310,10 +310,6 @@
           .row {
               font-size: 12px !important;
               vertical-align: top;
-
-              .time {
-                  
-              }
 
               .ako {
                   display: flex;

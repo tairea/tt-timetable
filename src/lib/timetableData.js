@@ -785,36 +785,36 @@ export const timetableData = {
     test: [
         {
             id: 1,
-            start: '23:00',
-            end: '23:05',
+            start: '21:20',
+            end: '21:30',
             classes: [
                 {
                     year: "",
-                    subject: "Dev1",
+                    subject: "Dev 1",
                     teacher: ""
                 }
             ],
             
         }, {
             id: 2,
-            start: '23:05',
-            end: '23:10',
+            start: '21:30',
+            end: '21:40',
             classes: [
                 {
                     year: "",
-                    subject: "Dev2",
+                    subject: "Dev 2",
                     teacher: ""
                 }
             ],
             
         }, {
             id: 3,
-            start: '23:10',
-            end: '23:15',
+            start: '21:40',
+            end: '21:50',
             classes: [
                 {
                     year: "",
-                    subject: "Dev3",
+                    subject: "Dev 3",
                     teacher: ""
                 }
             ],
@@ -822,8 +822,8 @@ export const timetableData = {
         },
          {
             id: 4,
-            start: '23:15',
-            end: '23:20',
+            start: '22:00',
+            end: '22:10',
             classes: [
                 {
                     year: "",

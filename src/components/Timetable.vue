@@ -38,7 +38,7 @@
           <!-- ========== TIMER ========== -->
           <div id="right">
               <div id="timer">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 260 250" width="100%" height="100%">
+                  <svg id="svg" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 260 250" width="100%" height="100%">
                       <rect x="5" y="5" width="250" height="250" fill="none" />
                       <circle cx="130" cy="155" r="120" stroke="lightgrey" stroke-width="20" fill="none" />
                       <circle cx="100" cy="125" r="120" stroke="limegreen" :stroke-dasharray="dasharray"
@@ -116,6 +116,9 @@
           // get time for clock
           time() {return this.now.toFormat('hh:mm')},
           // ---- Set Timetable data
+          dasharray() {
+              return this.timerProgress + " " + this.$options.circumference
+          },
           
       },
       watch : {
@@ -131,13 +134,13 @@
               var days = ['sunday','monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday']
               var day = new Date().getDay();
               var dayName = days[day]
-              console.log("this.timetable",this.timetable)
               console.log("day name is: " + dayName)
-              console.log("week: " + this.timetable[dayName])
+              console.log("timetable:")
+              console.log(this.timetable[dayName])
               
-              this.todaysTimetable = this.timetable[dayName]
+            //   this.todaysTimetable = this.timetable[dayName]
+              this.todaysTimetable = this.timetable['test']
 
-              // this.todaysTimetable = this.timetable['test']
               // return this.special['openDay']
       
           },
@@ -151,7 +154,7 @@
           },
           combined() {return this.now.toFormat('HH:mm')}, 
           checkTime() {
-              if (this.now.toFormat('HH') > 8 && this.now.toFormat('HH') < 16) {
+              if (Number(this.now.toFormat('HH')) > 8 && Number(this.now.toFormat('HH')) < 22) {
                   if (this.timerMinute == 0 && this.timerSecond == 0) {
                       console.log("lessshgo")
 
@@ -213,6 +216,7 @@
               this.timerProgress = 0;
           },
           _tick: function () {
+            //   console.log("_tick. time in seconds", this.timeInSeconds)
               //if second is 0 and minute is 0, clear the interval
               if (this.timerMinute == 0 && this.timerSecond == 0) {
                   this.stop()
@@ -235,9 +239,6 @@
                   this.timerMinute--;
                   this.timerSecond = 59;
               }
-          },
-          dasharray() {
-              return this.timerProgress + " " + this.$options.circumference
           },
       }
   }
@@ -346,6 +347,17 @@
           height: 50%;
           font-family: 'Kanit', sans-serif;
           /* font-family: 'Merriweather Sans', sans-serif; */
+          transform: scale(1.5);
+
+					margin: 50px 0 0 100px;
+
+					/* border: solid 3px red; */
+          
+					/* #svg {
+						position: absolute;
+						right: 0;
+						top: 0;
+					} */
       }
   }
 }
@@ -359,6 +371,45 @@
   width: auto;
   height: 100%;
   text-align: center;
+}
+
+@media (max-width: 599px) {
+
+	#container {
+		.today {
+			font-size: 1.3rem !important;		
+			align-items: center;	
+		}
+	}
+
+	.dash {
+		flex-direction: column;
+		margin: 10px 0;
+		
+
+		#right {
+			order: 1;
+			width: 100%;
+
+			#timer {
+				transform: scale(1.2);
+				margin: 0px;
+				margin-left: 50px;
+				height: 100%;
+			}
+		}
+
+		#left {
+			order: 2;
+			width: 100%;
+			font-size: 1rem !important;
+		}
+	}
+
+	
+
+
+
 }
 
 </style>

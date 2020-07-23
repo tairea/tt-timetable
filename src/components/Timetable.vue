@@ -138,11 +138,8 @@
               console.log("timetable:")
               console.log(this.timetable[dayName])
               
-            //   this.todaysTimetable = this.timetable[dayName]
-              this.todaysTimetable = this.timetable['test']
-
-              // return this.special['openDay']
-      
+              this.todaysTimetable = this.timetable[dayName]
+              // this.todaysTimetable = this.timetable['test']
           },
           format24HrTime(hhmm) {
               var timeArray = hhmm.split(':')
@@ -154,7 +151,7 @@
           },
           combined() {return this.now.toFormat('HH:mm')}, 
           checkTime() {
-              if (Number(this.now.toFormat('HH')) > 8 && Number(this.now.toFormat('HH')) < 22) {
+              if (Number(this.now.toFormat('HH')) > 8 && Number(this.now.toFormat('HH')) < 16) { // only check time if within school hours
                   if (this.timerMinute == 0 && this.timerSecond == 0) {
                       console.log("lessshgo")
 

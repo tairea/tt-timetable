@@ -264,6 +264,11 @@
       font-family: 'Kanit', sans-serif;
       text-transform: uppercase;
       letter-spacing: 3px;
+
+			@media (max-width: 599px) {
+				font-size: 1.3rem !important;		
+				align-items: center;	
+			}
   }
 }
 
@@ -276,6 +281,11 @@
   width: 100%;
   height: 90%;
   display: flex;
+	
+	@media (max-width: 599px) {
+		flex-direction: column;
+		margin: 10px 0;
+	}
 
   #left {
       width: 70%;
@@ -284,6 +294,12 @@
       align-items: center;
       justify-content: center;
       overflow: scroll;
+			
+			@media (max-width: 599px) {
+				order: 2;
+				width: 100%;
+				font-size: 1rem !important;
+			}
 
       table {
           border-collapse: separate;
@@ -294,6 +310,10 @@
               td {
                   padding: 0px 15px !important;
                   border: none !important;
+
+									@media (max-width: 599px) {
+										padding: 0px 5px !important;
+									}
               }
           }
       }
@@ -323,6 +343,11 @@
               text-transform: uppercase;
               letter-spacing: 3px;
 
+							@media (max-width: 599px) {
+								letter-spacing: 0px;
+								font-size: 0.7em !important;
+							}
+
               .ako {
                   text-align: center;
                   font-size: 1em;
@@ -339,6 +364,11 @@
       justify-content: center;
       /* align-items: center; */
 
+			@media (max-width: 599px) {
+				order: 1;
+				width: 100%;
+			}
+
       #timer {
           width: 80%;
           height: 50%;
@@ -348,13 +378,12 @@
 
 					margin: 50px 0 0 100px;
 
-					/* border: solid 3px red; */
-          
-					/* #svg {
-						position: absolute;
-						right: 0;
-						top: 0;
-					} */
+					@media (max-width: 599px) {
+						transform: scale(1.2);
+						margin: 0px;
+						margin-left: 50px;
+						height: 100%;
+					}
       }
   }
 }
@@ -370,43 +399,5 @@
   text-align: center;
 }
 
-@media (max-width: 599px) {
-
-	#container {
-		.today {
-			font-size: 1.3rem !important;		
-			align-items: center;	
-		}
-	}
-
-	.dash {
-		flex-direction: column;
-		margin: 10px 0;
-		
-
-		#right {
-			order: 1;
-			width: 100%;
-
-			#timer {
-				transform: scale(1.2);
-				margin: 0px;
-				margin-left: 50px;
-				height: 100%;
-			}
-		}
-
-		#left {
-			order: 2;
-			width: 100%;
-			font-size: 1rem !important;
-		}
-	}
-
-	
-
-
-
-}
 
 </style>

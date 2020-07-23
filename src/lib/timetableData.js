@@ -785,51 +785,99 @@ export const timetableData = {
     test: [
         {
             id: 1,
-            start: '21:20',
-            end: '21:30',
+            start: '22:00',
+            end: '22:10',
             classes: [
                 {
-                    year: "",
-                    subject: "Dev 1",
-                    teacher: ""
-                }
+                    year: "Teina",
+                    subject: "STEM",
+                    teacher: "Pa Chris"
+                }, {
+                    year: "Potiki",
+                    subject: "English",
+                    teacher: "Whaea Nicola"
+                }, {
+                    year: "11",
+                    subject: "Maths",
+                    teacher: "Whaea Te Ana"
+                }, {
+                    year: "12 & 13",
+                    subject: "PE/DANCE/TE KURA/STUDY",
+                    teacher: "Whaea Nicola/Whaea Caroline"
+                },
             ],
             
         }, {
             id: 2,
-            start: '21:30',
-            end: '21:40',
+            start: '22:10',
+            end: '22:20',
             classes: [
                 {
-                    year: "",
-                    subject: "Dev 2",
-                    teacher: ""
-                }
+                    year: "Teina",
+                    subject: "STEM",
+                    teacher: "Pa Chris"
+                }, {
+                    year: "Potiki",
+                    subject: "English",
+                    teacher: "Whaea Nicola"
+                }, {
+                    year: "11",
+                    subject: "Maths",
+                    teacher: "Whaea Te Ana"
+                }, {
+                    year: "12 & 13",
+                    subject: "PE/DANCE/TE KURA/STUDY",
+                    teacher: "Whaea Nicola/Whaea Caroline"
+                },
             ],
             
         }, {
             id: 3,
-            start: '21:40',
-            end: '21:50',
+            start: '22:20',
+            end: '22:30',
             classes: [
                 {
-                    year: "",
-                    subject: "Dev 3",
-                    teacher: ""
-                }
+                    year: "Teina",
+                    subject: "STEM",
+                    teacher: "Pa Chris"
+                }, {
+                    year: "Potiki",
+                    subject: "English",
+                    teacher: "Whaea Nicola"
+                }, {
+                    year: "11",
+                    subject: "Maths",
+                    teacher: "Whaea Te Ana"
+                }, {
+                    year: "12 & 13",
+                    subject: "PE/DANCE/TE KURA/STUDY",
+                    teacher: "Whaea Nicola/Whaea Caroline"
+                },
             ],
             
         },
          {
             id: 4,
-            start: '22:00',
-            end: '22:10',
+            start: '22:30',
+            end: '22:40',
             classes: [
                 {
-                    year: "",
-                    subject: "Dev4",
-                    teacher: ""
-                }
+                    year: "Teina",
+                    subject: "STEM",
+                    teacher: "Pa Chris"
+                }, {
+                    year: "Potiki",
+                    subject: "English",
+                    teacher: "Whaea Nicola"
+                }, {
+                    year: "11",
+                    subject: "Maths",
+                    teacher: "Whaea Te Ana"
+                }, {
+                    year: "12 & 13",
+                    subject: "PE/DANCE/TE KURA/STUDY",
+                    teacher: "Whaea Nicola/Whaea Caroline"
+                },
             ],
         },
     ]

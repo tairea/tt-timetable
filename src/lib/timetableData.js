@@ -29,29 +29,21 @@ export const timetableData = {
             end: '10:25',
             classes: [
                 {
-                    year: "9A",
-                    subject: "STEM",
+                    year: "9",
+                    subject: "Ako Module 2",
                     teacher: "Pa Chris"
                 }, {
-                    year: "9B",
+                    year: "10",
+                    subject: "Numeracy",
+                    teacher: "Whaea Keri"
+                }, {
+                    year: "11",
                     subject: "English",
                     teacher: "Whaea Keri"
                 }, {
-                    year: "10A",
-                    subject: "Innovation",
-                    teacher: "Pa Ian"
-                }, {
-                    year: "10B",
-                    subject: "Maths",
-                    teacher: "Whaea Te-Ana"
-                }, {
-                    year: "11",
-                    subject: "Dance",
-                    teacher: "Whaea Caroline"
-                }, {
                     year: "12 & 13",
-                    subject: "PE / ITLP",
-                    teacher: "Whaea Hayley"
+                    subject: "Te Reo Maori",
+                    teacher: "Pa Tipene"
                 },
             ],
         }, {
@@ -60,25 +52,21 @@ export const timetableData = {
             end: '11:20',
             classes: [
                 {
-                    year: "9A",
-                    subject: "Science",
+                    year: "9",
+                    subject: "Ako Module 2",
                     teacher: "Pa Chris"
                 }, {
-                    year: "9B",
-                    subject: "Innovation",
-                    teacher: "Pa Ian"
-                }, {
                     year: "10",
-                    subject: "Te Reo Maori",
-                    teacher: "Pa Tipene"
+                    subject: "Numeracy",
+                    teacher: "Whaea Keri"
                 }, {
                     year: "11",
-                    subject: "PE & Health",
-                    teacher: "Pa Tipene"
+                    subject: "English",
+                    teacher: "Whaea Keri"
                 }, {
                     year: "12 & 13",
-                    subject: "English / Work Ready",
-                    teacher: "Whaea Caroline / Whaea Keri"
+                    subject: "Te Reo Maori",
+                    teacher: "Pa Tipene"
                 },
             ],
         }, {
@@ -98,26 +86,10 @@ export const timetableData = {
             end: '12:35',
             classes: [
                 {
-                    year: "9",
-                    subject: "Maths",
-                    teacher: "Whaea Te-Ana"
-                }, {
-                    year: "10A",
-                    subject: "English",
-                    teacher: "Whaea Keri"
-                }, {
-                    year: "10B",
-                    subject: "Innovation",
-                    teacher: "Pa Ian"
-                }, {
-                    year: "11",
-                    subject: "Science",
-                    teacher: "Pa Chris"
-                }, {
-                    year: "12 & 13",
-                    subject: "Dance",
-                    teacher: "Whaea Caroline"
-                },
+                    year: "",
+                    subject: "Kapa Haka",
+                    teacher: ""
+                }, 
             ],
         }, {
             id: 7,
@@ -125,26 +97,10 @@ export const timetableData = {
             end: '13:30',
             classes: [
                 {
-                    year: "9A",
-                    subject: "Innovation",
-                    teacher: "Pa Ian"
-                }, {
-                    year: "9B",
-                    subject: "Science",
-                    teacher: "Pa Chris"
-                }, {
-                    year: "10A",
-                    subject: "Maths",
-                    teacher: "Whaea Te-Ana"
-                }, {
-                    year: "10B",
-                    subject: "English",
-                    teacher: "Whaea Keri"
-                },  {
-                    year: "11, 12 & 13",
-                    subject: "Te Reo Maori / ITLP",
-                    teacher: "Pa Tipene"
-                },
+                    year: "",
+                    subject: "Kapa Haka",
+                    teacher: ""
+                }, 
             ],
         }, {
             id: 8,
@@ -163,14 +119,10 @@ export const timetableData = {
             end: '15:00',
             classes: [
                 {
-                    year: "Juniors",
-                    subject: "PE",
-                    teacher: "Quests / ITLP / Passion"
-                },  {
-                    year: "11, 12 & 13",
-                    subject: "Innovation",
-                    teacher: "Pa Ian"
-                },
+                    year: "",
+                    subject: "High Performance Sports Programme",
+                    teacher: ""
+                }, 
             ],
         },
         {
@@ -216,26 +168,10 @@ export const timetableData = {
             end: '10:25',
             classes: [
                 {
-                    year: "9A",
-                    subject: "English",
-                    teacher: "Whaea Caroline"
-                }, {
-                    year: "9B",
-                    subject: "Innovation",
-                    teacher: "Pa Ian"
-                }, {
-                    year: "10A",
-                    subject: "English",
-                    teacher: "Whaea Keri"
-                }, {
-                    year: "10B",
-                    subject: "Science",
-                    teacher: "Pa Chris"
-                },  {
-                    year: "11, 12 & 13",
-                    subject: "Te Reo Maori / ITLP",
-                    teacher: "Pa Tipene"
-                },
+                    year: "",
+                    subject: "High Performance Sports Programme",
+                    teacher: ""
+                }, 
             ],
         }, {
             id: 4,
@@ -243,26 +179,10 @@ export const timetableData = {
             end: '11:20',
             classes: [
                 {
-                    year: "9A",
-                    subject: "Innovation",
-                    teacher: "Pa Ian"
-                }, {
-                    year: "9B",
-                    subject: "English",
-                    teacher: "Whaea Keri"
-                }, {
-                    year: "10",
-                    subject: "PE & Health",
-                    teacher: "Whaea Hayley"
-                }, {
-                    year: "11",
-                    subject: "Science",
-                    teacher: "Pa Chris"
-                },  {
-                    year: "12 & 13",
-                    subject: "Dance / ITLP",
-                    teacher: "Whaea Caroline"
-                },
+                    year: "",
+                    subject: "High Performance Sports Programme",
+                    teacher: ""
+                }, 
             ],
         }, {
             id: 5,
@@ -282,24 +202,20 @@ export const timetableData = {
             classes: [
                 {
                     year: "9",
-                    subject: "Maths",
-                    teacher: "Whaea Te-Ana"
-                }, {
-                    year: "10A",
-                    subject: "Science",
+                    subject: "Ako Module 2",
                     teacher: "Pa Chris"
                 }, {
-                    year: "10B",
-                    subject: "Innovation",
-                    teacher: "Pa Ian"
+                    year: "10",
+                    subject: "Numeracy",
+                    teacher: "Whaea Te-Ana"
                 }, {
                     year: "11",
-                    subject: "PE & Health",
-                    teacher: "Whaea Hayley"
-                },  {
+                    subject: "Te Reo Maori",
+                    teacher: "Pa Tipene"
+                }, {
                     year: "12 & 13",
                     subject: "English / Work Ready",
-                    teacher: "Whaea Caroline / Whaea Keri"
+                    teacher: "Whaea Keri"
                 },
             ],
         }, {
@@ -309,24 +225,20 @@ export const timetableData = {
             classes: [
                 {
                     year: "9",
+                    subject: "Ako Module 2",
+                    teacher: "Pa Chris"
+                }, {
+                    year: "10",
+                    subject: "Literacy",
+                    teacher: "Whaea Hayley"
+                }, {
+                    year: "11",
                     subject: "Te Reo Maori",
                     teacher: "Pa Tipene"
                 }, {
-                    year: "10A",
-                    subject: "Innovation",
-                    teacher: "Pa Chris"
-                }, {
-                    year: "10B",
-                    subject: "English",
-                    teacher: "Whaea Keri"
-                }, {
-                    year: "11",
-                    subject: "English",
-                    teacher: "Whaea Caroline"
-                },  {
                     year: "12 & 13",
-                    subject: "Science / ITLP",
-                    teacher: "Pa Chris"
+                    subject: "English / Work Ready",
+                    teacher: "Whaea Keri"
                 },
             ],
         }, {
@@ -346,13 +258,9 @@ export const timetableData = {
             end: '15:00',
             classes: [
                 {
-                    year: "9 & 10",
-                    subject: "Quests / ITLP / Passion",
+                    year: "",
+                    subject: "Kapa Haka",
                     teacher: ""
-                }, {
-                    year: "11, 12 & 13",
-                    subject: "Innovation",
-                    teacher: "Pa Ian"
                 },
             ],
         },
@@ -400,24 +308,20 @@ export const timetableData = {
             classes: [
                 {
                     year: "9",
-                    subject: "PE & Health",
-                    teacher: "Whaea Hayley"
+                    subject: "Numeracy",
+                    teacher: "Whaea Te-Ana"
                 }, {
-                    year: "10A",
-                    subject: "Science",
-                    teacher: "Pa Chris"
+                    year: "10",
+                    subject: "Ako Module 1",
+                    teacher: "Whaea Keri, Pa Tipene"
                 }, {
-                    year: "10B",
+                    year: "11",
                     subject: "Innovation",
                     teacher: "Pa Ian"
                 }, {
-                    year: "11",
-                    subject: "Dance",
-                    teacher: "Whaea Caroline"
-                }, {
                     year: "12 & 13",
-                    subject: "Maths / FiLit",
-                    teacher: "Pa Alec / Whaea Keri"
+                    subject: "Science / Dance",
+                    teacher: "Pa Chris / Whaea Hayley"
                 },
             ],
         }, {
@@ -426,25 +330,21 @@ export const timetableData = {
             end: '11:20',
             classes: [
                 {
-                    year: "9A",
-                    subject: "Science",
-                    teacher: "Pa Chris"
+                    year: "9",
+                    subject: "Numeracy",
+                    teacher: "Whaea Te-Ana"
                 }, {
-                    year: "9B",
+                    year: "10",
+                    subject: "Ako Module 1",
+                    teacher: "Whaea Keri, Pa Tipene"
+                }, {
+                    year: "11",
                     subject: "Innovation",
                     teacher: "Pa Ian"
                 }, {
-                    year: "10",
-                    subject: "Te Reo Māori",
-                    teacher: "Pa Tipene"
-                }, {
-                    year: "11",
-                    subject: "PE & Health",
-                    teacher: "Whaea Hayley"
-                }, {
                     year: "12 & 13",
-                    subject: "Maths / FiLit",
-                    teacher: "Pa Alec / Whaea Keri"
+                    subject: "Science / Dance",
+                    teacher: "Pa Chris / Whaea Hayley"
                 },
             ],
         }, {
@@ -464,26 +364,22 @@ export const timetableData = {
             end: '12:35',
             classes: [
                 {
-                    year: "9A",
-                    subject: "Innovation",
-                    teacher: "Pa Ian"
-                }, {
-                    year: "9B",
-                    subject: "English",
-                    teacher: "Whaea Keri"
+                    year: "9",
+                    subject: "Ako Module 1",
+                    teacher: "Whaea Keri, Pa Tipene"
                 }, {
                     year: "10",
-                    subject: "Kaupapa Māori",
-                    teacher: "Pa Tipene"
+                    subject: "Passion",
+                    teacher: "Pa Ian"
                 }, {
                     year: "11",
-                    subject: "English",
-                    teacher: "Whaea Caroline"
+                    subject: "Sciene",
+                    teacher: "Pa Chris"
                 }, {
                     year: "12 & 13",
-                    subject: "Science / ITLP",
-                    teacher: "Pa Chris"
-                },
+                    subject: "PE & Health",
+                    teacher: "Whaea Hayley"
+                }, 
             ],
         }, {
             id: 7,
@@ -492,25 +388,21 @@ export const timetableData = {
             classes: [
                 {
                     year: "9",
-                    subject: "Kaupapa Māori",
-                    teacher: "Pa Tipene"
+                    subject: "Ako Module 1",
+                    teacher: "Whaea Keri, Pa Tipene"
                 }, {
-                    year: "10A",
-                    subject: "Innovation",
+                    year: "10",
+                    subject: "Passion",
                     teacher: "Pa Ian"
                 }, {
-                    year: "10B",
-                    subject: "Science",
-                    teacher: "Chris"
-                }, {
                     year: "11",
-                    subject: "Maths",
-                    teacher: "Pa Alec"
+                    subject: "Sciene",
+                    teacher: "Pa Chris"
                 }, {
                     year: "12 & 13",
-                    subject: "English / Work Ready",
-                    teacher: "Whaea Caroline / Whaea Keri"
-                },
+                    subject: "PE & Health",
+                    teacher: "Whaea Hayley"
+                }, 
             ],
         }, {
             id: 8,
@@ -529,14 +421,18 @@ export const timetableData = {
             end: '15:00',
             classes: [
                 {
-                    year: "9 & 10",
-                    subject: "ITLP / Passion",
-                    teacher: ""
-                }, {
+                    year: "9",
+                    subject: "Literacy",
+                    teacher: "Pa Chris"
+                },  {
+                    year: "10",
+                    subject: "Literacy",
+                    teacher: "Whaea Hayley"
+                },{
                     year: "11",
-                    subject: "Innovation",
-                    teacher: "Pa Ian"
-                }, {
+                    subject: "English",
+                    teacher: "Whaea Keri"
+                },{
                     year: "12 & 13",
                     subject: "Innovation",
                     teacher: "Pa Ian"
@@ -586,25 +482,21 @@ export const timetableData = {
             end: '10:25',
             classes: [
                 {
-                    year: "9A",
-                    subject: "English",
-                    teacher: "Whaea Caroline"
+                    year: "9",
+                    subject: "Passion",
+                    teacher: "Pa Ian"
                 }, {
-                    year: "9B",
+                    year: "10",
+                    subject: "Ako Module 1",
+                    teacher: "Whaea Keri, Pa Tipene"
+                }, {
+                    year: "11",
                     subject: "Science",
                     teacher: "Pa Chris"
                 }, {
-                    year: "10A",
-                    subject: "English",
-                    teacher: "Whaea Keri"
-                }, {
-                    year: "10B",
-                    subject: "Maths",
-                    teacher: "Whaea Te-Ana"
-                }, {
-                    year: "11, 12 & 13",
-                    subject: "Te Reo Māori",
-                    teacher: "Pā Tipene"
+                    year: "12 & 13",
+                    subject: "Maths /Financial Lit",
+                    teacher: "Pa Alec, Whaea Te-Ana"
                 },
             ],
         }, {
@@ -613,29 +505,21 @@ export const timetableData = {
             end: '11:20',
             classes: [
                 {
-                    year: "9A",
-                    subject: "English",
-                    teacher: "Whaea Caroline"
+                    year: "9",
+                    subject: "Passion",
+                    teacher: "Pa Ian"
                 }, {
-                    year: "9B",
-                    subject: "Science",
-                    teacher: "Pa Chris"
-                }, {
-                    year: "10A",
-                    subject: "Maths",
-                    teacher: "Whaea Te-Ana"
-                }, {
-                    year: "10B",
-                    subject: "English",
-                    teacher: "Whaea Caroline"
+                    year: "10",
+                    subject: "Ako Module 1",
+                    teacher: "Whaea Keri, Pa Tipene"
                 }, {
                     year: "11",
-                    subject: "Maths",
-                    teacher: "Pā Alec"
-                }, {
-                    year: "12 & 13",
                     subject: "PE & Health",
                     teacher: "Whaea Hayley"
+                }, {
+                    year: "12 & 13",
+                    subject: "Maths /Financial Lit",
+                    teacher: "Pa Alec, Whaea Te-Ana"
                 },
             ],
         }, {
@@ -656,20 +540,20 @@ export const timetableData = {
             classes: [
                 {
                     year: "9",
-                    subject: "PE & Health",
-                    teacher: "Whaea Hayley"
+                    subject: "Ako Module 1",
+                    teacher: "Whaea Keri, Pa Tipene"
                 }, {
                     year: "10",
-                    subject: "Te Reo Māori",
-                    teacher: "Pa Tipene"
+                    subject: "Ako Module 2",
+                    teacher: "Pa Chris"
                 }, {
                     year: "11",
-                    subject: "English",
-                    teacher: "Whaea Caroline"
+                    subject: "Maths",
+                    teacher: "Pa Alec"
                 },{
                     year: "12 & 13",
-                    subject: "Maths / FiLit",
-                    teacher: "Pa Alec / Whaea Keri"
+                    subject: "Innovation",
+                    teacher: "Pa Ian"
                 },
             ],
         }, {
@@ -679,20 +563,20 @@ export const timetableData = {
             classes: [
                 {
                     year: "9",
-                    subject: "Te Reo Maori",
-                    teacher: "Pa Tipene"
+                    subject: "Ako Module 1",
+                    teacher: "Whaea Keri, Pa Tipene"
                 }, {
                     year: "10",
-                    subject: "PE & Health",
-                    teacher: "Whaea Hayley"
+                    subject: "Ako Module 2",
+                    teacher: "Pa Chris"
                 }, {
                     year: "11",
-                    subject: "Dance",
-                    teacher: "Whaea Caroline"
-                },  {
+                    subject: "Maths",
+                    teacher: "Pa Alec"
+                },{
                     year: "12 & 13",
-                    subject: "Maths / FiLit",
-                    teacher: "Pa Alec / Whaea Keri"
+                    subject: "Innovation",
+                    teacher: "Pa Ian"
                 },
             ],
         }, {
@@ -712,17 +596,21 @@ export const timetableData = {
             end: '15:00',
             classes: [
                 {
-                    year: "9 & 10",
-                    subject: "Quests / ITLP / Passion",
+                    year: "9",
+                    subject: "Literacy",
+                    teacher: "Pa Chris"
+                },{
+                    year: "10",
+                    subject: "Literacy",
                     teacher: "Whaea Hayley"
                 }, {
                     year: "11",
-                    subject: "Science",
-                    teacher: "Pa Chris"
+                    subject: "Innovation",
+                    teacher: "Pa Ian"
                 }, {
                     year: "12 & 13",
                     subject: "English / Work Ready",
-                    teacher: "Whaea Caroline / Whaea Keri"
+                    teacher: "Whaea Keri"
                 },
             ],
         },
@@ -770,20 +658,20 @@ export const timetableData = {
             classes: [
                 {
                     year: "9",
-                    subject: "PE & Health",
-                    teacher: "Whaea Hayley"
-                }, {
-                    year: "10A",
-                    subject: "Science",
-                    teacher: "Pa Chris"
-                }, {
-                    year: "10B",
-                    subject: "Maths",
+                    subject: "Numeracy",
                     teacher: "Whaea Te-Ana"
                 }, {
-                    year: "11, 12 & 13",
-                    subject: "Te Reo Māori",
-                    teacher: "Pā Tipene"
+                    year: "10",
+                    subject: "Passion",
+                    teacher: "Pa Ian"
+                }, {
+                    year: "11",
+                    subject: "Te Reo Maori",
+                    teacher: "Pa Tipene"
+                }, {
+                    year: "12 & 13",
+                    subject: "Science / Dance",
+                    teacher: "Whaea Hayley"
                 },
             ],
         }, {
@@ -793,20 +681,20 @@ export const timetableData = {
             classes: [
                 {
                     year: "9",
-                    subject: "Maths",
-                    teacher: "Whaea Te-Ama"
+                    subject: "Literacy",
+                    teacher: "Chris"
                 }, {
                     year: "10",
-                    subject: "Kaupapa Māori",
-                    teacher: "Pa Tipene"
+                    subject: "Passion",
+                    teacher: "Pa Ian"
                 }, {
                     year: "11",
-                    subject: "English",
-                    teacher: "Whaea Caroline"
+                    subject: "Maths",
+                    teacher: "Pa Alec"
                 }, {
                     year: "12 & 13",
-                    subject: "Science / ITLP",
-                    teacher: "Pa Chris"
+                    subject: "PE & Health",
+                    teacher: "Whaea Hayley"
                 },
             ],
         }, {
@@ -827,20 +715,20 @@ export const timetableData = {
             classes: [
                 {
                     year: "9",
-                    subject: "Kaupapa Māori",
-                    teacher: "Pa Tipene"
+                    subject: "Passion",
+                    teacher: "Pa Ian"
                 }, {
                     year: "10",
-                    subject: "PE &N Health",
-                    teacher: "Whaea Hayley"
+                    subject: "Ako Module 2",
+                    teacher: "Pa Chris"
                 }, {
                     year: "11",
-                    subject: "Maths",
-                    teacher: "Pa Alec"
+                    subject: "PE & Health",
+                    teacher: "Whaea Hayley"
                 }, {
                     year: "12 & 13",
-                    subject: "Dance / ITLP",
-                    teacher: "Whaea Caroline"
+                    subject: "Te Reo Maori",
+                    teacher: "Pa Tipene"
                 },
             ],
         }, {
@@ -850,24 +738,20 @@ export const timetableData = {
             classes: [
                 {
                     year: "9",
-                    subject: "Te Reo Maori",
-                    teacher: "Pa Tipene"
+                    subject: "Passion",
+                    teacher: "Pa Ian"
                 }, {
-                    year: "10A",
-                    subject: "Maths",
-                    teacher: "Whaea Te-Ana"
-                }, {
-                    year: "10B",
-                    subject: "Science",
+                    year: "10",
+                    subject: "Ako Module 2",
                     teacher: "Pa Chris"
                 }, {
                     year: "11",
-                    subject: "Maths",
-                    teacher: "Pa Alec"
-                }, {
-                    year: "12 & 13",
                     subject: "PE & Health",
                     teacher: "Whaea Hayley"
+                }, {
+                    year: "12 & 13",
+                    subject: "Maths",
+                    teacher: "Whaea Te-Ana"
                 },
             ],
         }, {
